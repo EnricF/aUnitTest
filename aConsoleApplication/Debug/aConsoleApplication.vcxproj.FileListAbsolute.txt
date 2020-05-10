@@ -1,0 +1,2 @@
+F:\workspace\Projects\GoogleTest\Debug\aConsoleApplication.pdb
+F:\workspace\Projects\GoogleTest\aConsoleApplication\Debug\aConsoleApplication.pdb
