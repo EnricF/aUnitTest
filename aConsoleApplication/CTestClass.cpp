@@ -32,3 +32,20 @@ bool CTestClass::DoSomethingMore()
 {
 	return !m_AnotherVariable;
 }
+
+
+const int CTestClass::PrivateVariable()
+{
+	return m_PrivateVariable;
+}
+void CTestClass::PrivateVariable(int value)
+{
+	if ( value < 100) {
+		m_PrivateVariable = value;
+	}
+
+	else {
+		m_PrivateVariable = 100;
+	}
+
+}

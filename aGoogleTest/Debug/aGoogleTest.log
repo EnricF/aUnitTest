@@ -1,2 +1,1 @@
-﻿  test.cpp
-  aGoogleTest.vcxproj -> F:\workspace\Projects\GoogleTest\Debug\aGoogleTest.exe
+﻿LINK : fatal error LNK1104: cannot open file 'aConsoleApplication.lib'

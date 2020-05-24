@@ -5,6 +5,7 @@
 
 #include "CTestClass.h"
 
+using namespace std;
 int main()
 {
     CTestClass myTest;
@@ -13,6 +14,13 @@ int main()
 
     int i = myTest.DoSomething();
     std::cout << i << "\n";*/
+
+    myTest.PrivateVariable(50);
+    cout << "Getter: " << myTest.PrivateVariable() << endl;
+
+    myTest.PrivateVariable(101);
+    cout << "Getter: " << myTest.PrivateVariable() << endl;
+
     return 0;
 }
 

@@ -27,6 +27,12 @@ public:
 	int		DoSomething(void);		// Naming rule: CamelName
 	bool	DoSomethingMore(void);
 
+	//Getter - Accessor
+	//const int	PrivateVariable() const;//which one?
+	const int	PrivateVariable();
+	//Setter - Mutator
+	void		PrivateVariable(int value);
+
 protected:
 	int		m_Variable;
 	bool	m_AnotherVariable;
